@@ -10,6 +10,8 @@ const TitleCards = ({title, category}) => {
     cardsRef.current.scrollLeft += event.deltaY;
   }
 
+  
+
   useEffect(()=> {
     cardsRef.current.addEventListener('wheel',handleWheel);
   },[])
